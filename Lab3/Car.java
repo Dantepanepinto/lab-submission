@@ -14,11 +14,15 @@ class Car{
 				number = 0;
 				Total_gallons_used += 1;
 				gallons = gallons - 1;}
+		System.out.print("you have driven ");
+		System.out.print(miles);
+		system.out.print(" miles");
 		
 	}
 	
 	public void add_gas(int gas){
 		gallons = gallons + gas;
+		
 		
 	}
 	
@@ -36,4 +40,16 @@ class Car{
 		System.out.print(Total_gallons_used);
 		
 	}
+	
+	
+	
+	public static void main(){
+		Car newcar = new Car()
+		Milespergallon = 5;
+		System.out.println("you currently are at 5 miles per gallon.");
+		newcar.add_gas(50);
+		
+		newcar.miles_driven(30);
+		
+		
 }
